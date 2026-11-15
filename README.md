@@ -28,9 +28,9 @@
 
 ## 安装
 
-1. 浏览器安装 [Tampermonkey](https://www.tampermonkey.net/) 扩展
-2. 点击 Tampermonkey 图标 → 添加新脚本 → 粘贴 [`hust-map-pixelizer.user.js`](hust-map-pixelizer.user.js) 全文并保存
-   （或下载文件后拖入浏览器，由 Tampermonkey 引导安装）
+1. 浏览器安装 [Tampermonkey(篡改猴)](https://www.tampermonkey.net/) 扩展，在浏览器扩展的设置页开启**开发人员模式**，并**允许用户脚本**
+2. 下载脚本文件后点击 Tampermonkey 图标 → 管理面板 → 实用工具 → 导入 → 选择下载好的脚本
+   （或点击 Tampermonkey 图标 → 添加新脚本 → 粘贴 [`hust-map-pixelizer.user.js`](hust-map-pixelizer.user.js) 全文并保存）
 3. 登录 [校园地图](https://map.hust.edu.cn/OneMap/Home/OneMap)（需校园账号，脚本不接触账号凭据），右上角出现「像素化框选」面板即安装成功
 
 > 更新脚本时请**整文件替换**：网格基准点写死在脚本内，全团队版本不一致会导致各人导出的像素图无法对齐。
